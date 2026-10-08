@@ -1,0 +1,52 @@
+[
+  {
+    "userId": "DWU2026001",
+    "firstName": "Mareerose",
+    "lastName": "Possi",
+    "email": "mareerose.possi@example.com",
+    "userType": "Student",
+    "programme": "Bachelor of Information Systems",
+    "yearLevel": 3
+  },
+  {
+    "userId": "DWU2026002",
+    "firstName": "John",
+    "lastName": "Kila",
+    "email": "john.kila@example.com",
+    "userType": "Student",
+    "programme": "Bachelor of Accounting",
+    "yearLevel": 2
+  },
+  {
+    "userId": "STF001",
+    "firstName": "Grace",
+    "lastName": "Tau",
+    "email": "grace.tau@example.com",
+    "userType": "Staff",
+    "department": "Library"
+  },
+  {
+    "userId": "OFF001",
+    "firstName": "Peter",
+    "lastName": "Wari",
+    "email": "peter.wari@example.com",
+    "userType": "Service Officer",
+    "serviceSection": "Campus Services"
+  },
+  {
+    "userId": "TECH001",
+    "firstName": "Samuel",
+    "lastName": "Dagi",
+    "email": "samuel.dagi@example.com",
+    "userType": "Technician",
+    "speciality": "Networks"
+  },
+  {
+    "userId": "TECH002",
+    "firstName": "Anna",
+    "lastName": "Mou",
+    "email": "anna.mou@example.com",
+    "userType": "Technician",
+    "speciality": "Electrical"
+  }
+]

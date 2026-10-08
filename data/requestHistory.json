@@ -1,0 +1,178 @@
+[
+  {
+    "historyId": "REQ001-H01",
+    "requestId": "REQ001",
+    "previousStatus": null,
+    "newStatus": "Submitted",
+    "action": "Submit Request",
+    "actorId": "DWU2026001",
+    "actorRole": "Student",
+    "comment": "Request submitted",
+    "dateTime": "2026-09-01T08:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H02",
+    "requestId": "REQ001",
+    "previousStatus": "Submitted",
+    "newStatus": "Reviewed",
+    "action": "Review Request",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Reviewed (priority High)",
+    "dateTime": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H03",
+    "requestId": "REQ001",
+    "previousStatus": "Reviewed",
+    "newStatus": "Assigned",
+    "action": "Assign Technician",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Technician assigned: TECH001",
+    "dateTime": "2026-09-01T10:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H04",
+    "requestId": "REQ001",
+    "previousStatus": "Assigned",
+    "newStatus": "In Progress",
+    "action": "Start Work",
+    "actorId": "TECH001",
+    "actorRole": "Technician",
+    "comment": "Work started",
+    "dateTime": "2026-09-01T11:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H05",
+    "requestId": "REQ001",
+    "previousStatus": "In Progress",
+    "newStatus": "In Progress",
+    "action": "Progress Update",
+    "actorId": "TECH001",
+    "actorRole": "Technician",
+    "comment": "Access point rebooted, testing the connection.",
+    "dateTime": "2026-09-01T13:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H06",
+    "requestId": "REQ001",
+    "previousStatus": "In Progress",
+    "newStatus": "Resolved",
+    "action": "Resolve Request",
+    "actorId": "TECH001",
+    "actorRole": "Technician",
+    "comment": "Access point replaced and tested.",
+    "dateTime": "2026-09-01T15:00:00.000Z"
+  },
+  {
+    "historyId": "REQ001-H07",
+    "requestId": "REQ001",
+    "previousStatus": "Resolved",
+    "newStatus": "Closed",
+    "action": "Close Request",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Student confirmed Wi-Fi works.",
+    "dateTime": "2026-09-01T16:00:00.000Z"
+  },
+  {
+    "historyId": "REQ002-H01",
+    "requestId": "REQ002",
+    "previousStatus": null,
+    "newStatus": "Submitted",
+    "action": "Submit Request",
+    "actorId": "STF001",
+    "actorRole": "Staff",
+    "comment": "Request submitted",
+    "dateTime": "2026-09-01T18:00:00.000Z"
+  },
+  {
+    "historyId": "REQ002-H02",
+    "requestId": "REQ002",
+    "previousStatus": "Submitted",
+    "newStatus": "Reviewed",
+    "action": "Review Request",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Reviewed (priority Urgent)",
+    "dateTime": "2026-09-01T19:00:00.000Z"
+  },
+  {
+    "historyId": "REQ002-H03",
+    "requestId": "REQ002",
+    "previousStatus": "Reviewed",
+    "newStatus": "Assigned",
+    "action": "Assign Technician",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Technician assigned: TECH002",
+    "dateTime": "2026-09-01T19:00:00.000Z"
+  },
+  {
+    "historyId": "REQ002-H04",
+    "requestId": "REQ002",
+    "previousStatus": "Assigned",
+    "newStatus": "In Progress",
+    "action": "Start Work",
+    "actorId": "TECH002",
+    "actorRole": "Technician",
+    "comment": "Work started",
+    "dateTime": "2026-09-01T20:00:00.000Z"
+  },
+  {
+    "historyId": "REQ003-H01",
+    "requestId": "REQ003",
+    "previousStatus": null,
+    "newStatus": "Submitted",
+    "action": "Submit Request",
+    "actorId": "DWU2026002",
+    "actorRole": "Student",
+    "comment": "Request submitted",
+    "dateTime": "2026-09-01T20:00:00.000Z"
+  },
+  {
+    "historyId": "REQ004-H01",
+    "requestId": "REQ004",
+    "previousStatus": null,
+    "newStatus": "Submitted",
+    "action": "Submit Request",
+    "actorId": "DWU2026001",
+    "actorRole": "Student",
+    "comment": "Request submitted",
+    "dateTime": "2026-09-01T21:00:00.000Z"
+  },
+  {
+    "historyId": "REQ004-H02",
+    "requestId": "REQ004",
+    "previousStatus": "Submitted",
+    "newStatus": "Reviewed",
+    "action": "Review Request",
+    "actorId": "OFF001",
+    "actorRole": "Service Officer",
+    "comment": "Reviewed (priority Low)",
+    "dateTime": "2026-09-01T21:00:00.000Z"
+  },
+  {
+    "historyId": "REQ005-H01",
+    "requestId": "REQ005",
+    "previousStatus": null,
+    "newStatus": "Submitted",
+    "action": "Submit Request",
+    "actorId": "DWU2026002",
+    "actorRole": "Student",
+    "comment": "Request submitted",
+    "dateTime": "2026-09-01T22:00:00.000Z"
+  },
+  {
+    "historyId": "REQ005-H02",
+    "requestId": "REQ005",
+    "previousStatus": "Submitted",
+    "newStatus": "Cancelled",
+    "action": "Cancel Request",
+    "actorId": "DWU2026002",
+    "actorRole": "Student",
+    "comment": "Cancelled by requester",
+    "dateTime": "2026-09-01T22:00:00.000Z"
+  }
+]

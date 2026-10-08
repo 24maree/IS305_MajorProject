@@ -1,0 +1,200 @@
+[
+  {
+    "auditId": "AUD0001",
+    "actorId": "DWU2026001",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered Mareerose Possi as Student.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0002",
+    "actorId": "DWU2026002",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered John Kila as Student.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0003",
+    "actorId": "STF001",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered Grace Tau as Staff.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0004",
+    "actorId": "OFF001",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered Peter Wari as Service Officer.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0005",
+    "actorId": "TECH001",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered Samuel Dagi as Technician.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0006",
+    "actorId": "TECH002",
+    "action": "Register User",
+    "requestId": null,
+    "description": "Registered Anna Mou as Technician.",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0007",
+    "actorId": "DWU2026001",
+    "action": "Create Request",
+    "requestId": "REQ001",
+    "description": "Submitted \"Unable to access campus Wi-Fi\" (ICT Support).",
+    "dateTime": "2026-09-01T08:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0008",
+    "actorId": "OFF001",
+    "action": "Review Request",
+    "requestId": "REQ001",
+    "description": "Reviewed and set priority to High.",
+    "dateTime": "2026-09-01T09:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0009",
+    "actorId": "OFF001",
+    "action": "Assign Technician",
+    "requestId": "REQ001",
+    "description": "Assigned to Technician TECH001.",
+    "dateTime": "2026-09-01T10:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0010",
+    "actorId": "TECH001",
+    "action": "Start Work",
+    "requestId": "REQ001",
+    "description": "Technician started the work.",
+    "dateTime": "2026-09-01T11:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0011",
+    "actorId": "TECH001",
+    "action": "Progress Update",
+    "requestId": "REQ001",
+    "description": "Progress note: Access point rebooted, testing the connection.",
+    "dateTime": "2026-09-01T13:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0012",
+    "actorId": "TECH001",
+    "action": "Resolve Request",
+    "requestId": "REQ001",
+    "description": "Technician resolved the request.",
+    "dateTime": "2026-09-01T15:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0013",
+    "actorId": "OFF001",
+    "action": "Close Request",
+    "requestId": "REQ001",
+    "description": "Officer verified and closed the request.",
+    "dateTime": "2026-09-01T16:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0014",
+    "actorId": "STF001",
+    "action": "Create Request",
+    "requestId": "REQ002",
+    "description": "Submitted \"Broken ceiling light\" (Facilities Maintenance).",
+    "dateTime": "2026-09-01T18:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0015",
+    "actorId": "OFF001",
+    "action": "Review Request",
+    "requestId": "REQ002",
+    "description": "Reviewed and set priority to Urgent.",
+    "dateTime": "2026-09-01T19:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0016",
+    "actorId": "OFF001",
+    "action": "Assign Technician",
+    "requestId": "REQ002",
+    "description": "Assigned to Technician TECH002.",
+    "dateTime": "2026-09-01T19:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0017",
+    "actorId": "TECH002",
+    "action": "Start Work",
+    "requestId": "REQ002",
+    "description": "Technician started the work.",
+    "dateTime": "2026-09-01T20:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0018",
+    "actorId": "DWU2026002",
+    "action": "Create Request",
+    "requestId": "REQ003",
+    "description": "Submitted \"Spill in the cafeteria\" (Cleaning and Sanitation).",
+    "dateTime": "2026-09-01T20:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0019",
+    "actorId": "DWU2026001",
+    "action": "Create Request",
+    "requestId": "REQ004",
+    "description": "Submitted \"Request for extra chairs\" (General Campus Service).",
+    "dateTime": "2026-09-01T21:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0020",
+    "actorId": "OFF001",
+    "action": "Review Request",
+    "requestId": "REQ004",
+    "description": "Reviewed and set priority to Low.",
+    "dateTime": "2026-09-01T21:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0021",
+    "actorId": "DWU2026002",
+    "action": "Create Request",
+    "requestId": "REQ005",
+    "description": "Submitted \"Projector not working\" (ICT Support).",
+    "dateTime": "2026-09-01T22:00:00.000Z",
+    "result": "Success"
+  },
+  {
+    "auditId": "AUD0022",
+    "actorId": "DWU2026002",
+    "action": "Cancel Request",
+    "requestId": "REQ005",
+    "description": "Request cancelled by the requester.",
+    "dateTime": "2026-09-01T22:00:00.000Z",
+    "result": "Success"
+  }
+]
